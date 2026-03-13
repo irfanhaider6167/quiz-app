@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "React is mainly used for building?",
+    "options": ["Styling", "Mobile Apps", "User Interfaces (UI)", "Database Management"],
+    "answer": "User Interfaces (UI)"
+  },
+  {
+    "id": 2,
+    "question": "What is the syntax extension used in React to write HTML inside JavaScript?",
+    "options": ["JSX", "XML", "JSXML", "HTMLJS"],
+    "answer": "JSX"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is used to manage state in functional components?",
+    "options": ["useState", "useEffect", "useContext", "useReducer"],
+    "answer": "useState"
+  },
+  {
+    "id": 4,
+    "question": "What is the Virtual DOM used for in React?",
+    "options": ["To directly edit the DOM", "To increase performance", "To add styling", "To manage backend"],
+    "answer": "To increase performance"
+  },
+  {
+    "id": 5,
+    "question": "How do you pass data from a parent component to a child component?",
+    "options": ["State", "Refs", "Props", "Context"],
+    "answer": "Props"
+  },
+  {
+    "id": 6,
+    "question": "Which hook is used to handle side effects in functional components?",
+    "options": ["useState", "useEffect", "useReducer", "useCallback"],
+    "answer": "useEffect"
+  },
+  {
+    "id": 7,
+    "question": "What are the building blocks of a React application?",
+    "options": ["Modules", "Components", "Functions", "Classes"],
+    "answer": "Components"
+  },
+  {
+    "id": 8,
+    "question": "What does a React component return?",
+    "options": ["HTML", "JSON", "JSX", "CSS"],
+    "answer": "JSX"
+  },
+  {
+    "id": 9,
+    "question": "What is the purpose of keys in React lists?",
+    "options": ["Styling", "Uniquely identifying elements", "Sorting", "Adding Data"],
+    "answer": "Uniquely identifying elements"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is a way to share data globally across components without passing props?",
+    "options": ["useState", "useEffect", "Context API", "Ref"],
+    "answer": "Context API"
+  }
+]

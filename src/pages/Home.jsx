@@ -1,0 +1,31 @@
+import { useContext, useState } from "react";
+import { QuizContext } from "../quizContext/quizcontext";
+import { useNavigate } from "react-router-dom";
+
+const Home = () => {
+  const { dispatch } = useContext(QuizContext);
+  const navigate = useNavigate();
+  const [name, setName] = useState();
+  const handleSubmit = () => {
+    if (!name) return alert("Enter Your Name Please");
+    dispatch({ type: "SET_NAME", payload: name });
+    navigate("/quiz");
+  };
+  return (
+    <div className="container text-center mt-5">
+      <h1 className="fw-bold mb-4">🚀 React Quiz Challenge</h1>
+      <input
+        placeholder="Enter your name"
+        className="form-control w-50 mx-auto mb-3"
+        type="text"
+        autoComplete="off"
+        onChange={(e) => setName(e.target.value)}
+      />
+      <button className="btn btn-primary btn-lg" onClick={handleSubmit}>
+        Start Quiz
+      </button>
+    </div>
+  );
+};
+
+export default Home;
